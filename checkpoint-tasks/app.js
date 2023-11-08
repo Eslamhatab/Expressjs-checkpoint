@@ -45,7 +45,7 @@ app.get('/services/devs', (req, res) => {
         {title: "Node JS", alt: "Node_JS.png", src: "/images/nodejs.png"}
     ];
     const availableDevs = devs.length > 0;
-    res.render('services/devs', {title: "Development", devs: devs, availableDevs});
+    res.render('services/devs', {title: "Company", devs: devs, availableDevs});
 });
 
 app.use((req, res) => {
